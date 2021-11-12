@@ -1,0 +1,11 @@
+import("mvtnorm","numDeriv")
+importFrom("graphics", "hist", "lines", "par", "plot")
+importFrom("stats", "Gamma", "as.formula", "binomial", "dnorm",
+"gaussian", "glm", "is.empty.model", "model.matrix",
+"model.offset", "model.response", "model.weights",
+"dbinom", "dgamma", "pnorm", "poisson", "qnorm", "rnorm", "cor","var","dist")
+importFrom("stats","formula","lm","model.frame","terms","update")
+importFrom("methods","as", "validObject")
+importFrom("Matrix","t","drop0")
+importFrom("boot", "glm.diag", "corr")
+export("hsemfit","hsemmodeling")
